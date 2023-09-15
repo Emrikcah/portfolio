@@ -10,6 +10,34 @@ module.exports = {
             "lite-gray": "hsl(0,0%,85%)",
             white: "hsl(0,0%,100%)",
          },
+         fontSize: {
+            1: [
+               "8.8rem",
+               {
+                  lineHeight: "8.8rem",
+                  letterSpacing: "-0.25rem",
+               },
+            ],
+            2: [
+               "4.8rem",
+               {
+                  lineHeight: "5.6rem",
+                  letterSpacing: "-0.15rem",
+               },
+            ],
+            3: [
+               "2.4rem",
+               {
+                  lineHeight: "3.2rem",
+               },
+            ],
+            4: [
+               "1.8rem",
+               {
+                  lineHeight: "2.8rem",
+               },
+            ],
+         },
       },
       fontFamily: {
          space: ["Space Grotesk", "sans-serif"],
@@ -17,34 +45,6 @@ module.exports = {
       fontWeight: {
          medium: 500,
          bold: 700,
-      },
-      fontSize: {
-         1: [
-            "8.8rem",
-            {
-               lineHeight: "8.8rem",
-               letterSpacing: "-0.25rem",
-            },
-         ],
-         2: [
-            "4.8rem",
-            {
-               lineHeight: "5.6rem",
-               letterSpacing: "-0.15rem",
-            },
-         ],
-         3: [
-            "2.4rem",
-            {
-               lineHeight: "3.2rem",
-            },
-         ],
-         4: [
-            "1.8rem",
-            {
-               lineHeight: "2.8rem",
-            },
-         ],
       },
    },
    plugins: [],
