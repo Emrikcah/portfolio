@@ -7,8 +7,9 @@ module.exports = {
             black: "hsl(0,0%,8%)",
             teal: "hsl(153,71%,59%)",
             gray: "hsl(0,0%,14%)",
-            "lite-gray": "hsl(0,0%,85%)",
+            liteGray: "hsl(0,0%,85%)",
             white: "hsl(0,0%,100%)",
+            invalid: "red"
          },
          fontSize: {
             1: [
@@ -26,12 +27,21 @@ module.exports = {
                },
             ],
             3: [
-               "2.4rem",
+               "3.2rem",
                {
                   lineHeight: "3.2rem",
+                  letterSpacing: "-0.444rem",
                },
             ],
             4: [
+               "2.4rem",
+               {
+                  lineHeight: "3.2rem",
+                  letterSpacing: "-0.333rem",
+
+               },
+            ],
+            5: [
                "1.8rem",
                {
                   lineHeight: "2.8rem",
@@ -40,7 +50,7 @@ module.exports = {
          },
       },
       fontFamily: {
-         space: ["Space Grotesk", "sans-serif"],
+         grotesk: ["Space Grotesk", "sans-serif"],
       },
       fontWeight: {
          medium: 500,

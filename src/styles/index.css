@@ -12,9 +12,34 @@
    h2{
       @apply text-1
    }
+
+   body{
+      @apply font-grotesk bg-black
+   }
 }
 
 
 @layer components{
+
+   .fem-icon{
+      svg{
+         @apply   fill-white hover:fill-teal
+      }
+   }
+
    
+}
+
+.section-container{
+   width: calc(100% - 32px);
+   max-width: 1100px;
+   margin-inline: auto;
+
+   @media(min-width: 600px){
+      width: calc(100% - 60px);
+   }
+
+   @media(min-width: 1000px){
+      width: calc(100% - 58px);
+   }
 }
