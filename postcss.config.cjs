@@ -1,4 +1,4 @@
-// postcss.config.js
+// postcss.config.cjs. Note must have a .cjs file ext
 module.exports = {
    plugins: [
      require("postcss-import"),

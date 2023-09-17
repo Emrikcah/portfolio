@@ -1,0 +1,5 @@
+Bootstap for icons
+
+desktop -1100px
+Tablet - 708px
+mobile - 345px
