@@ -12,39 +12,39 @@ module.exports = {
             invalid: "red"
          },
          fontSize: {
-            1: [
-               "8.8rem",
+            5: [
+               "88px",
                {
-                  lineHeight: "8.8rem",
-                  letterSpacing: "-0.25rem",
-               },
-            ],
-            2: [
-               "4.8rem",
-               {
-                  lineHeight: "5.6rem",
-                  letterSpacing: "-0.15rem",
-               },
-            ],
-            3: [
-               "3.2rem",
-               {
-                  lineHeight: "3.2rem",
-                  letterSpacing: "-0.444rem",
+                  lineHeight: "88px",
+                  letterSpacing: "-2.5px",
                },
             ],
             4: [
-               "2.4rem",
+               "48px",
                {
-                  lineHeight: "3.2rem",
-                  letterSpacing: "-0.333rem",
+                  lineHeight: "56px",
+                  letterSpacing: "-1.5px",
+               },
+            ],
+            3: [
+               "32px",
+               {
+                  lineHeight: "32px",
+                  
+               },
+            ],
+            2: [
+               "24px",
+               {
+                  lineHeight: "32px",
+                  
 
                },
             ],
-            5: [
-               "1.8rem",
+            1: [
+               "18px",
                {
-                  lineHeight: "2.8rem",
+                  lineHeight: "28px",
                },
             ],
          },
