@@ -31,11 +31,30 @@
 
 @layer components{
 
-   .fem-icon{
-      svg{
-         @apply   fill-white hover:fill-teal
+   .tealUnderline{
+      @apply text-base leading-6 inline-block border-teal border-b-2 pb-1 font-bold tracking-wide cursor-pointer hover:text-teal uppercase
+   }
+
+   .social-icons >a> svg > path{
+      @apply hover:fill-teal
+   }
+
+
+   .img-profile{
+
+      position: absolute;
+      top: 168px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      @media (min-width: 768px) {
+         /* top: 280px;  */
+         left: 80%;
+         
       }
    }
+
+  
 
    
 }
