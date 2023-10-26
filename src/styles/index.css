@@ -46,16 +46,9 @@
       top: 168px;
       left: 50%;
       transform: translate(-50%, -50%);
-
-      @media (min-width: 768px) {
-         /* top: 280px;  */
-         left: 80%;
-         
-      }
    }
 
-  
-
+   
    
 }
 
