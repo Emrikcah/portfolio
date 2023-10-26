@@ -1,0 +1,14 @@
+---
+import profileDesktop from '@assets/image-profile-desktop.webp'
+import profileMobile from '@assets/image-profile-mobile.webp'
+import profileTablet from '@assets/image-profile-tablet.webp'
+import {Image} from 'astro:assets';
+
+---
+
+<div class="img-profile border border-red-50 bg-red-800">
+<Image src={profileMobile} alt="mobile profile" width={174} class="md:hidden" />
+<Image src={profileTablet} alt="tablet profile"  width={322} class="hidden md:inline-block lg:hidden" />
+<Image src={profileDesktop} alt="desktop profile " width={445}  class="hidden lg:inline-block" />
+</div>
+
