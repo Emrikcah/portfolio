@@ -48,6 +48,10 @@ module.exports = {
                },
             ],
          },
+         backgroundImage: {
+            tablet: "url('/src/assets/images/image-profile-tablet.webp')",
+            desktop: "url('/src/assets/images/image-profile-desktop.webp')",
+          },
       },
       fontFamily: {
          grotesk: ["Space Grotesk", "sans-serif"],
